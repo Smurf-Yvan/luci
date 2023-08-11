@@ -1,38 +1,3 @@
-/**
- *  Argon is a clean HTML5 theme for LuCI. It is based on luci-theme-material and Argon Template
- *
- *  luci-theme-argon
- *      Copyright 2019 Jerrykuku <jerrykuku@qq.com>
- *
- *  Have a bug? Please create an issue here on GitHub!
- *      https://github.com/jerrykuku/luci-theme-argon/issues
- *
- *  luci-theme-bootstrap:
- *      Copyright 2008 Steven Barth <steven@midlink.org>
- *      Copyright 2008 Jo-Philipp Wich <jow@openwrt.org>
- *      Copyright 2012 David Menting <david@nut-bolt.nl>
- *
- *  MUI:
- *      https://github.com/muicss/mui
- *
- *  luci-theme-material:
- *      https://github.com/LuttyYang/luci-theme-material/
- *
- *  Agron Theme
- *	    https://demos.creative-tim.com/argon-dashboard/index.html
- *
- *  Login background
- *      https://unsplash.com/
- *
- *  Licensed to the public under the Apache License 2.0
- */
-
-/*
- *  Font generate by Icomoon<icomoon.io>
- *  Mod again by Mask
- *  Mod again by Lienol
- */
-
 :root {
     --blue: #5e72e4;
     --indigo: #5603ad;
@@ -255,7 +220,7 @@ body div {
 .cbi-button-down,
 .main>.loading {
 
-    background: linear-gradient(87deg, #5e72e4 0, #5e72e4 100%) !important;
+    background: linear-gradient(87deg, #c56ed5 0, #c56ed5 100%) !important;
 }
 
 .sk-folding-cube {
@@ -558,8 +523,8 @@ li {
 .progress_bar>div>div {
     height: 100% !important;
     border-radius: 5px;
-    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
-    box-shadow: 0px 0px 8px #9effff57;
+    background: linear-gradient(65deg, #e5aaf2 0, #a825a6b8 100%);
+    box-shadow: 0px 0px 8px #ff13cc57;
 }
 
 /* fix multiple table */
