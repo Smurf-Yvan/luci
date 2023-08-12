@@ -220,7 +220,7 @@ body div {
 .cbi-button-down,
 .main>.loading {
 
-    background: linear-gradient(87deg, #c56ed5 0, #c56ed5 100%) !important;
+    background: linear-gradient(87deg, #5e72e4 0, #5e72e4 100%) !important;
 }
 
 .sk-folding-cube {
@@ -523,8 +523,8 @@ li {
 .progress_bar>div>div {
     height: 100% !important;
     border-radius: 5px;
-    background: linear-gradient(65deg, #e5aaf2 0, #a825a6b8 100%);
-    box-shadow: 0px 0px 8px #ff13cc57;
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
+    box-shadow: 0px 0px 8px #9effff57;
 }
 
 /* fix multiple table */
@@ -1397,8 +1397,8 @@ hr {
 }
 
 .bg-primary {
-    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
-    box-shadow: 0 3px 16px #9effff57;
+    background: linear-gradient(65deg, #6a4176 0, #ff05afb8 100%);
+    box-shadow: 0 3px 16px #ff00bfd9;
 }
 
 header,
