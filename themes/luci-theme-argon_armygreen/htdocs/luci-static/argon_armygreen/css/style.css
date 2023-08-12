@@ -1513,8 +1513,8 @@ footer>a {
     width: 15%;
     width: calc(0% + 15rem);
     height: 100%;
-    background-color: #fff !important;
-    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+    background: linear-gradient(360deg, #efb7ff 0, #ffbceac2 100%);
+    box-shadow: 7px 20px 3rem 0 rgb(150 0 255 / 75%);
     overflow-x: auto;
     position: fixed;
     z-index: 100;
@@ -1881,7 +1881,7 @@ header>.fill>.container>.brand {
 
 .main>.main-left>.nav>.slide>.menu.active {
     color: #000;
-    background: #f6f9fc;
+    background: #cba0fa96;
 }
 
 .main>.main-left>.nav>.slide>.menu.active:after {
@@ -1972,7 +1972,7 @@ fieldset {
     overflow-y: hidden; */
     border: 1px solid rgba(0, 0, 0, .05);
     border-radius: .375rem;
-    background-color: #fff;
+    background: linear-gradient(271deg, #e382ffbd 0, #ffbceac2 100%)
     box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
     -webkit-overflow-scrolling: touch;
 }
@@ -2161,15 +2161,15 @@ form.inline+form.inline,
 .cbi-input-reload,
 .cbi-button-reload {
     color: #fff !important;
-    background-color: #7fffffb8 !important;
-    border-color: #7fffffb8 !important;
+    background-color: #c100fab8 !important;
+    border-color: #c100fab8 !important;
 }
 
 .cbi-value-field .cbi-input-apply,
 .cbi-button-apply,
 .cbi-button-edit {
     color: #fff !important;
-    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
+    background: linear-gradient(65deg, #8f3f96 0, #c100fab8 100%);
 }
 
 
@@ -2210,7 +2210,7 @@ select+.cbi-button {
 }
 
 .cbi-tabmenu>li {
-    background: #adb5bd;
+    background: #0056ff;border-radius: 10px;
 }
 
 .cbi-tabmenu>li>a,
@@ -2470,7 +2470,7 @@ select[multiple="multiple"] {
 }
 
 .cbi-tabmenu>li[class~="cbi-tab"] {
-    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
+    background: linear-gradient(65deg, #37f3f3 0, #001cf6b8 100%);
 }
 
 .cbi-tabmenu>li[class~="cbi-tab"]>a {
@@ -2491,7 +2491,6 @@ select[multiple="multiple"] {
 }
 
 .cbi-section-node {
-    background: #fff;
     border: 0;
     border-radius: .375rem;
     margin-bottom: 0px;
@@ -2510,8 +2509,7 @@ select[multiple="multiple"] {
 #cbi-network .cbi-section .cbi-section-node {}
 
 .cbi-section-node .cbi-value {
-    /*    padding: 0.3rem 0rem 0.3rem 1rem;
-*/
+padding: 0.3rem 0rem 0.3rem 1rem;
 }
 
 
