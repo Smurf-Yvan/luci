@@ -2196,7 +2196,7 @@ select+.cbi-button {
 .tabs {
     margin: 0.5rem 0rem;
     padding-left: 1rem;
-    background-color: #FFFFFF;
+    background-color: #ffadf9;
     border-radius: 0.375rem;
 }
 
@@ -2445,7 +2445,7 @@ select[multiple="multiple"] {
 .tabs>li:hover {
     cursor: pointer;
     margin-bottom: 0;
-    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
+    background: linear-gradient(65deg, #9c59ff 0, #f07fffb8 100%);
 }
 
 .tabs>li[class~="active"]>a {
